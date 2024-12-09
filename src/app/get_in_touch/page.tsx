@@ -42,7 +42,7 @@ const GetinTouch = () => {
         {/* Right Side Div for Chair Image */}
         <div className="h-[603px] w-[720px] bg-darkprimary  ">
           <Image
-            src={"/get_in_touch/getintouch.png"}
+            src={"/Get_in_touch/getintouch.png"}
             alt="Get In Touch Image"
             height={603}
             width={720}
