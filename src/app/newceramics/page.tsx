@@ -10,7 +10,7 @@ const NewCeramics = () => {
       <div className="h-[462px] w-[1280px]  absolute mt-[152px] ml-[80px] flex justify-between items-center ">
         <div className="h-[462px] w-[305px] absoulte bg-white">
           <Image
-            src={"/new_ceramics/photo.png"}
+            src={"/new_ceramics/Photo.png"}
             alt="Chair Image"
             width={305}
             height={375}

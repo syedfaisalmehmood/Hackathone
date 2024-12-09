@@ -10,7 +10,7 @@ import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
     // main footer div
-    <div className="h-[380px] w-[1440px]  flex mt-[100px] m-auto bg-darkprimary text-white">
+    <div className="h-[380px] w-[1440px]  flex  m-auto bg-darkprimary text-white">
       {/* sub footer div */}
       <div className="h-[206px] w-[1275px] flex mt-[58px] ml-[82px] ">
         {/* menu div */}
