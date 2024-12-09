@@ -8,10 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      screens: {
+        xl: "", // Set max width to 1440px
+      },
+
+      fontFamily: {
+        display: ["Clash Display", "sans-serif"],
+      },
+
+      colors: {
+        primary: "#2A254B",
+        darkprimary: "#2A254B",
+        lightgrey: "#F9F9F9",
+        bordergrey: "#EBE8F4",
+        white: "#FFFFFF",
+        borderdark: "#CAC6DA",
+        navtext: "#726E8D",
+        buttoncolor: "#4E4D93",
       },
     },
   },

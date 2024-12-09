@@ -16,6 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Satoshi font ka link */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Satoshi:wght@100;200;300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
