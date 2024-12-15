@@ -1,21 +1,21 @@
-import NavBar from "./components/navbar";
-import MainPage from "./home/page";
-import Footer from "./components/footer";
-import NewCeramics from "./newceramics/page";
-import Popular_products from "./popular_products/page";
-import Join_club from "./components/join_club";
-import GetinTouch from "./get_in_touch/page";
+import Hero_1 from "./components/hero1";
+import Product_Main from "./components/productmain";
+import Brand_Different from "./components/branddifferent";
+import Popular_products from "./components/popularproducts";
+import GetinTouch_1 from "./components/getintouch1";
+import Join_club_1 from "./components/joinclub1";
+import Footer_1 from "./components/footer1";
 
 export default function Home() {
   return (
-    <div className="h-screen">
-      <NavBar />
-      <MainPage />
-      <NewCeramics />
+    <div className="">
+      <Hero_1 />
+      <Brand_Different />
+      <Product_Main />
       <Popular_products />
-      <Join_club />
-      <GetinTouch />
-      <Footer />
+      <Join_club_1 />
+      <GetinTouch_1 />
+      <Footer_1 />
     </div>
   );
 }

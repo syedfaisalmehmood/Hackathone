@@ -25,6 +25,7 @@ const config: Config = {
         borderdark: "#CAC6DA",
         navtext: "#726E8D",
         buttoncolor: "#4E4D93",
+        textlight: "#505977",
       },
     },
   },

@@ -7,7 +7,7 @@ import { FaSkype } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
-const Footer = () => {
+const Footer_1 = () => {
   return (
     // main footer div
     <div className="h-[380px] w-[1440px]  flex  m-auto bg-darkprimary text-white">
@@ -138,4 +138,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer_1;

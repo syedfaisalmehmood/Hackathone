@@ -1,15 +1,15 @@
 import React from "react";
 
-const Join_club = () => {
+const Join_club_1 = () => {
   return (
     <div className="h-[481px] w-[1440px] m-auto flex justify-center items-center ">
       <div className="h-[384px] w-[1273px] mt-[40px] ">
-        <div className="h-[114px] w-[571px] mt-[68px] ml-[351px] ">
+      <div className="h-[114px] w-[571px] mt-[68px] ml-[351px] flex justify-center  ">
           <h1 className="h-[50px] w-[571px] text-[36px] ">
             Join the club and get the benefits
           </h1>
-          <p className="h-[48px] w-[470px] mt-[16px] ml-[54.5px] flex  text-center">
-            Sign up for our newsletter and receive exclusive offers on new
+          <p className="h-[54x] w-[470px] mt-[61px] absolute  flex justify-center font-light text-center">
+            Sign up for our newsletter and receive exclusive offers on <br /> new
             ranges, sales, pop up stores and more
           </p>
         </div>
@@ -28,4 +28,4 @@ const Join_club = () => {
   );
 };
 
-export default Join_club;
+export default Join_club_1;
